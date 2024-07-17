@@ -1,0 +1,152 @@
+section {
+  position: relative;
+}
+
+.wrapper {
+  font-family: var(--body-font-family);
+  color: var(--primary-font-color);
+  background-color: var(--curved-section-bg-color);
+  display: flex;
+  align-items: center;
+  padding: 15% 5%;
+}
+
+.bg-desktop-curve {
+  position: absolute;
+  top: -140px;
+  width: 100%; /* Make sure the curve spans the width of the section */
+  /* z-index: -1; Ensure the curve is behind the content */
+}
+
+/* @media (max-width: 768px) {
+  .bg-desktop-curve {
+    display: none;
+  }
+} */
+.bg-mobile-curve {
+  position: absolute;
+  width: 100%;
+}
+
+.left-section h3 {
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+.left-section {
+  margin-right: 4rem;
+}
+
+.how-it-works {
+  display: inline-block;
+  flex-direction: column;
+}
+
+.cyan-line {
+  height: 2px;
+  background-color: var(--cyan-color);
+  width: 90%;
+  margin-top: 0.3rem;
+}
+
+.how-it-works .text-section {
+  display: flex;
+  align-items: center;
+  color: var(--cyan-color);
+  font-weight: 500;
+}
+.how-it-works img {
+  width: 10%;
+  margin-left: 0.6rem;
+}
+.comment {
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.right-section img {
+  width: 100%;
+}
+.testimonial {
+  width: 21rem;
+  margin-top: 2.5rem;
+  padding: 1.5em;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 2px 3px 5px rgba(96, 96, 96, 0.7);
+}
+
+.testifier {
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+}
+.testifier img {
+  border-radius: 50%;
+  width: 13%;
+  height: 13%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+.testifier-name {
+  font-weight: 700;
+}
+
+@media (min-width: 1024px) {
+  .left-section h3 {
+    white-space: nowrap;
+  }
+  .bg-desktop-curve {
+    top: -60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .comment {
+    text-align: left;
+  }
+  .wrapper {
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .right-section {
+    order: 1;
+    margin-bottom: 2.5rem;
+  }
+  .left-section {
+    order: 2;
+    margin-right: 0;
+  }
+  .left-section h3 {
+    font-size: 1.3rem;
+  }
+  .testimonial {
+    margin-inline: auto;
+    text-align: left;
+  }
+  .testifier {
+    text-align: left;
+  }
+  .how-it-works,
+  .text-section {
+    margin-top: 1rem;
+  }
+  .how-it-works .text-section .text {
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+  }
+  .bg-desktop-curve {
+    top: -30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .bg-desktop-curve{
+    top: -20px;
+  }
+  .testimonial {
+    width: 80%;
+    margin-inline: auto;
+  }
+}

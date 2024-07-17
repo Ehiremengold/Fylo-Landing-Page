@@ -1,0 +1,149 @@
+header {
+  font-family: var(--heading-font-family);
+  /* border: 1px solid red; */
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+}
+
+header nav .logo {
+  width: 8%;
+}
+
+header nav .logo img {
+  width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  header nav .logo {
+    width: 15%;
+  }
+}
+
+@media (max-width: 425px) {
+  header nav .logo {
+    width: 25%;
+  }
+}
+
+header nav .nav-items {
+  display: flex;
+}
+
+header nav .nav-items > * {
+  margin-right: 3.5rem;
+  list-style: none;
+}
+
+@media (max-width: 425px) {
+  header nav .nav-items > * {
+    margin-right: 1rem;
+  }
+}
+
+nav ul li {
+  list-style: none;
+  font-weight: 400;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+header .app-info {
+  width: 85%;
+  margin: 10rem auto;
+  display: flex;
+  align-items: top;
+}
+
+header .app-info .text-and-action p {
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin: 1em 0;
+}
+
+.quick-action input {
+  border: 1px solid var(--primary-font-color);
+  padding: 0.9rem;
+  border-radius: 4px;
+}
+
+.quick-action input::placeholder {
+  font-family: var(--heading-font-family);
+}
+
+.illustration-1 {
+  width: 70%;
+}
+
+.illustration-1 img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  header .app-info {
+    width: 94%;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  header .app-info .text-and-action {
+    order: 2;
+  }
+
+  header .app-info .text-and-action h1 {
+    line-height: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  header .app-info .illustration-1 {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .quick-action {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 2rem auto 0 auto;
+  }
+
+  .quick-action input {
+    margin-bottom: 1.3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .app-info .text-and-action h1 {
+    width: 80%;
+    /* line-height: 2.2rem; */
+    font-size: 2rem;
+  }
+  .app-info .illustration-1{
+    width: 100%;
+  }
+  .quick-action input{
+    width:40%;
+    margin-right: 1rem;
+  }
+}
+@media (min-width: 1440px) {
+  .app-info .text-and-action h1 {
+    /* width: 70%; */
+    /* line-height: 2.2rem; */
+    font-size: 3rem;
+  }
+  
+  .app-info .text-and-action p{
+    width: 58%;
+  }
+}
