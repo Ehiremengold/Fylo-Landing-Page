@@ -1,8 +1,8 @@
 header {
   font-family: var(--heading-font-family);
   /* border: 1px solid red; */
-  padding-top: 30px;
-  padding-bottom: 70px;
+  padding-top: 2em;
+  padding-bottom: 3em;
 }
 
 header nav {
@@ -72,7 +72,7 @@ header .app-info .text-and-action p {
 
 .quick-action input {
   border: 1px solid var(--primary-font-color);
-  padding: 0.9rem;
+  padding: 0.9em;
   border-radius: 4px;
 }
 
@@ -128,11 +128,11 @@ header .app-info .text-and-action p {
     /* line-height: 2.2rem; */
     font-size: 2rem;
   }
-  .app-info .illustration-1{
+  .app-info .illustration-1 {
     width: 100%;
   }
-  .quick-action input{
-    width:40%;
+  .quick-action input {
+    width: 40%;
     margin-right: 1rem;
   }
 }
@@ -142,8 +142,8 @@ header .app-info .text-and-action p {
     /* line-height: 2.2rem; */
     font-size: 3rem;
   }
-  
-  .app-info .text-and-action p{
+
+  .app-info .text-and-action p {
     width: 58%;
   }
 }

@@ -13,7 +13,7 @@ section {
 
 .bg-desktop-curve {
   position: absolute;
-  top: -140px;
+  top: -280px;
   width: 100%; /* Make sure the curve spans the width of the section */
   /* z-index: -1; Ensure the curve is behind the content */
 }
