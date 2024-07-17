@@ -18,12 +18,17 @@ This is my solution to the Fylo landing page challenge from [Frontend Mentor](ht
 
 ### Screenshot
 
+#### Laptop View
+
 ![Fylo Landing Page Screenshot](screenshots/laptop.png)
+
+#### Tab View
 
 ![Fylo Landing Page Screenshot](screenshots/tab.png)
 
-![Fylo Landing Page Screenshot](screenshots/phone.png)
+#### Mobile view
 
+![Fylo Landing Page Screenshot](screenshots/phone.png)
 
 ## My Process
 
@@ -56,4 +61,3 @@ I plan to continue improving my skills in:
 
 - [MDN Web Docs](https://developer.mozilla.org/) - Comprehensive resource for web development documentation and tutorials.
 - [CSS Tricks](https://css-tricks.com/) - A great site for CSS tips and tricks.
-
